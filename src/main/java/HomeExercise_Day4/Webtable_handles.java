@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Webtable {
+public class Webtable_handles {
 
     WebDriver driver;
 
@@ -75,7 +75,7 @@ public class Webtable {
         }
 
     public static void main(String[] args) {
-        Webtable Webtableobj = new Webtable();
+        Webtable_handles Webtableobj = new Webtable_handles();
         Webtableobj.browserstart("http://demo.guru99.com/test/web-table-element.php#");
         Webtableobj.tableheader();
         Webtableobj.rowandcolumsize();
